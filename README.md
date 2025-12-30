@@ -40,3 +40,11 @@ A documented 30-day accelerated journey from Legacy Systems/IT to Modern AI Engi
 4. **Run the App:**
     ```bash
     streamlit run day13_app.py
+
+### 👁️ 3. Multimodal "JARVIS" Pipeline (Week 3)
+*A suite of scripts enabling the AI to See, Hear, and Speak.*
+- **Vision:** Object detection and counting (e.g., inventorying server rack equipment).
+- **Audio:** Speech-to-text with accent recognition and automated summarization.
+- **Video Intelligence:** Full video analysis returning structured JSON timelines of events.
+- **Tech:** Google Gemini 1.5/2.5 Flash, PyGame, gTTS, Pillow.
+- [View Video Search Code](./day20_videosearch.py)
