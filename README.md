@@ -1,50 +1,75 @@
-# AI Engineering Bootcamp 🚀
+AI Engineering Bootcamp 🚀
 
-A documented 30-day accelerated journey from Legacy Systems/IT to Modern AI Engineering. This repository contains progressive labs focusing on **Generative AI**, **Agents**, and **RAG (Retrieval-Augmented Generation)**.
+A documented 30-day accelerated journey from Legacy Systems/IT to Modern AI Engineering. This repository contains progressive labs focusing on Generative AI, Agents, and RAG (Retrieval-Augmented Generation).
 
-## 🛠️ Tech Stack
-- **Language:** Python 3.12+
-- **LLM:** Google Gemini 2.5 Flash / Lite
-- **Orchestration:** LangChain & LangGraph
-- **Vector DB:** ChromaDB (Local Persistent Storage)
-- **Frontend:** Streamlit
+🛠️ Tech Stack
 
-## 📂 Key Projects
+Language: Python 3.12+
 
-### 🤖 1. Corporate Policy AI Assistant (Day 13)
-*A RAG-based chatbot that answers questions about internal documents using Metadata filtering.*
-- **Features:** "Ask your PDF" functionality, Department-specific filtering (Metadata), Streamlit UI.
-- [View Code](./day13_app.py)
+LLM: Google Gemini 2.5 Flash / Lite
 
-### 🕵️ 2. Autonomous SysAdmin Agent (Day 9)
-*An intelligent agent capable of using custom tools to diagnose server health.*
-- **Features:** Tool calling, Reasoning/ReAct pattern, LangGraph state machine.
-- [View Code](./day9_agent.py)
+Orchestration: LangChain & LangGraph
 
-## ⚡ How to Run
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/trentdouthat/ai-engineering-bootcamp.git](https://github.com/trentdouthat/ai-engineering-bootcamp.git)
-   cd ai-engineering-bootcamp
+Vector DB: ChromaDB (Local Persistent Storage)
 
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
+Frontend: Streamlit
 
-3. **Configure Environment:**
-    Create a .env file in the root directory:
-    Properties
-    GOOGLE_API_KEY=your_key_here
-    GEMINI_MODEL=gemini-2.5-flash-lite
+📂 Key Projects
 
-4. **Run the App:**
-    ```bash
-    streamlit run day13_app.py
+👁️ 1. OpsVision Pro (Day 23)
 
-### 👁️ 3. Multimodal "JARVIS" Pipeline (Week 3)
-*A suite of scripts enabling the AI to See, Hear, and Speak.*
-- **Vision:** Object detection and counting (e.g., inventorying server rack equipment).
-- **Audio:** Speech-to-text with accent recognition and automated summarization.
-- **Video Intelligence:** Full video analysis returning structured JSON timelines of events.
-- **Tech:** Google Gemini 1.5/2.5 Flash, PyGame, gTTS, Pillow.
-- [View Video Search Code](./day20_videosearch.py)
+A RAG-based inventory scanner that identifies hardware and retrieves manuals.
+
+Features: Visual Object Detection, Vector Search, PDF Spec Retrieval.
+
+View Code | Live Demo
+
+🎥 2. Recall Video Search (Day 26)
+
+A "Ctrl+F" engine for video content.
+
+Features: Automated JSON timeline generation, Chat-with-Video interface.
+
+View Code
+
+🎙️ 3. SRVA Voice Agent (Day 29)
+
+A hands-free Site Reliability Engineer assistant.
+
+Features: Voice-to-Voice interface, Autonomous Tool Calling (LangGraph), System Health Monitoring.
+
+View Code
+
+📈 Learning Timeline
+
+[x] Week 1: LLM Fundamentals & Prompt Engineering
+
+[x] Week 2: RAG Pipelines, Vector Databases, and Agents
+
+[x] Week 3: Computer Vision, Speech Processing, & Video Intelligence
+
+[x] Week 4: Full Stack Deployment & Portfolio Construction
+
+⚡ How to Run
+
+Clone the repo:
+
+git clone [https://github.com/trentdouthat/ai-engineering-bootcamp.git](https://github.com/trentdouthat/ai-engineering-bootcamp.git)
+cd ai-engineering-bootcamp
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Configure Environment:
+Create a .env file in the root directory:
+
+GOOGLE_API_KEY=your_key_here
+GEMINI_MODEL=gemini-2.5-flash-lite
+
+
+Run the App:
+
+streamlit run day23_opsvision.py
